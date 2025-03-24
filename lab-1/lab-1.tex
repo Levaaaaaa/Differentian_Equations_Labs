@@ -1,0 +1,35 @@
+\documentclass[12pt]{article}  
+\usepackage{ucs} 
+\usepackage[utf8x]{inputenc} % Включаем поддержку UTF8  
+\usepackage[russian]{babel}  % Включаем пакет для поддержки русского языка 
+
+\begin{document}
+Вариант 12
+\newline
+Задание 1. Привести уравнение к каноническому виду
+$$u_{xx} + 4u_{xy} + 13u_{yy} + 3u_x - 9u = -9(x+y)$$
+Характеристическое уравнение:
+$$(dy)^2 - 4dxdy + 13(dx)^2 = 0$$
+$$D = 16(dx)^2 - 52(dx)^2 = -36(dx)^2 < 0$$
+Значит, уравнение элиптического типа
+$$dy = \frac{4 \pm 6i}{2}dx \Rightarrow y - \frac{4 \pm 6i}{2}x = C$$
+$$\xi = y - 2x, \xi_x = -2, \xi_y = 1$$
+$$\eta = 3x, \eta_x = 3, \eta_y = 0$$
+
+$$u_x = u_{\xi}\xi_x + u_{\eta}\eta_x = -2u_{\xi} + 3u_{\eta}$$
+$$u_y = u_{\xi}\xi_y + u_{\eta}\eta_y = u_{\xi}$$
+$$u_{xx} = -2u_{\xi\xi}\xi_x - 2u_{\xi\eta}\eta_x + 3u_{\xi\eta}\xi_x + 3u_{\eta\eta}\eta_x 
+= 4u_{\xi\xi} - 12u_{\xi\eta}+9u_{\eta\eta}$$
+$$u_{xy} = (u_y)_x = u_{\xi\xi}\xi_x + u_{\xi_\eta}\eta_x
+= -2u_{\xi\xi} + 3u_{\xi_\eta}$$
+$$u_{yy} = u_{\xi\xi}\xi_y + u_{\xi_\eta}\eta_y 
+= u_{\xi\xi}$$
+Вычислим коэффициенты:
+$$u_{\xi\xi}: 4 - 8 + 13 = 9$$
+$$u_{\xi\eta}: -12 + 12 = 0$$
+$$u_{\eta\eta}: 9$$
+$$u_{\xi} = -6$$
+$$u_{\eta} = 9$$
+Имеем
+$$9u_{\xi\xi} + u_{\eta\eta} - 6u_{\xi} +9u_{\eta} - 9u = -9(\xi+\eta)$$
+\end{document}
