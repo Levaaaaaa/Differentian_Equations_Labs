@@ -278,4 +278,84 @@ u_{\eta\eta} &: 0 \notag
 
 Получим уравнение
 $$-4u_{\xi\eta} - 2u_\xi = \eta$$
+
+Проведем замену:
+$v = u_\xi$
+$$-4v_\eta - 2v \eta = \eta$$
+Найдем общее решение однородного уравнения:
+$$v_{oo} = C(\xi)e^{-\frac{\eta}{2}}$$
+
+Методом Лагранжа найдем частное решение неоднородного уравнения:
+$$v = -\frac{1}{2}\eta + C_2(\xi)e^{-\frac{\eta}{2}} - 4$$
+
+Получим общее решение неоднородного уравнения:
+$$v_{OH} = u_\xi = C(\xi)e^{-\frac{\eta}{2}} -\frac{1}{2}\eta + C_2(\xi)e^{-\frac{\eta}{2}} - 4$$
+
+Интегрируем по $\xi$
+$$u = C_5(\xi)e^{-\frac{\eta}{2}} - \frac{\xi\eta}{2} - 4\xi$$
+
+Подставим x, y:
+$$u(x,y) = C_5(y-6x)e^{-\frac{y-4x}{2}} - \frac{(y-6x)(y-4x)}{2} - 4(y-6x)$$
+
+\section{Задание 6. В каждой из областей, где сохраняется тип уравнения, найти общее решение уравнения}
+Задача 3.37
+$$xu_{xx} - 4x^2u_{xy} + 4x^3u_{yy} + u_x - 4xu_y = x(y+x^2)$$
+
+\subsection{Приведем к каноническому виду}
+    Характеристическое уравнение:
+    $$x(dy)^2 + 4x^2dxdy + 4x^3(dx)^2 = 0$$
+    $D = 0 \Rightarrow$ уравнение параболического типа
+    $$dy = -2xdx$$
+    \begin{align}
+        \xi &= y+x^2 &\xi_x &= 2x &\xi_y &= 1 \notag \\
+        \eta &= x &\eta_x &= 1 &\eta_y &= 0 \notag  
+    \end{align}
+
+    \begin{align}
+        u_x &= 2xu_\xi + u_\eta \notag \\
+        u_\eta &= u_\xi \notag \\
+        u_{xx} &= 4x^2u_{\xi\xi} + 4xu_{\xi\eta} + u_{\eta\eta} + 2u_\xi \notag \\
+        u_{xy} &= 2xu_{\xi\xi} + u_{\xi\eta} \notag \\
+        u_{yy} &= u_{\xi\xi} \notag
+    \end{align}
+
+    Вычислим коэффициенты:
+    \begin{align}
+    u_{\xi\xi} &: 4x^3 - 8x^3 + 4x^3 = 0 &u_\xi &: 2x+2x-4x = 0 \notag \\
+    u_{\xi\eta} &: 4x^2 - 4x^2 = 0 &u_\eta &: 1 \notag \\
+    u_{\eta\eta} &: x \notag
+    \end{align}
+
+    В результате:
+    $$\eta u_{\eta\eta} + u_\eta = \xi\eta$$
+
+    \subsection{Найдем общее решение}
+    Проведем замену: $v = u_\eta$
+    Имеем уравнение:
+    $$\eta v_\eta + v = \xi\eta$$
+    Найдем общее решение однородного:
+    $$v_{OO} = \frac{C(\xi)}{\eta}$$
+    Методом Лагранжа найдем частное решение неоднородного:
+    $$v_\eta = \frac{C_\eta\eta - C}{\eta^2}$$
+    $$C_\eta\eta = \xi\eta^2 \Rightarrow C_\eta = \xi\eta$$
+    $$C = \frac{1}{2} \xi\eta^2 + C_2(\xi)$$
+    Частное решение неоднородного:
+    $$v = \frac{1}{2}\xi\eta + \frac{1}{\eta}C_2(\xi)$$
+    Общее решение неоднородного:
+    $$v = u_\eta = \frac{C_3(\xi)}{\eta} + \frac{1}{2}\xi\eta$$
+    Проинтегрируем по $\eta$
+    $$u = C_3(\xi)ln\eta + \frac{1}{4}\xi\eta^2$$
+    Выразим через x,y:
+    $$u(x,y) = C_3(y+x^2)ln(x) + \frac{1}{4}(y+x^2)x^2$$
+
+\section{Задние 7. Решить задачу Гурса}
+Задача 12.
+\begin{equation*}
+    \begin{cases}
+        u_{xx} + 6u_{xy} + 8u_{yy} + u_x + u_y = 0,
+        \\
+        x > 0, y>0,
+        
+    \end{cases}
+\end{equation*}
 \end{document}

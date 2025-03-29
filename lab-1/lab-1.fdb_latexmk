@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1742912024.15515 "d:/Leva/BSU/course_3/sem_6/ДУЧП/labs/lab-1/lab-1.tex" "lab-1.pdf" "lab-1" 1742912025.66378 0
+["pdflatex"] 1743276554.81688 "d:/Leva/BSU/course_3/sem_6/ДУЧП/labs/lab-1/lab-1.tex" "lab-1.pdf" "lab-1" 1743276555.58355 0
   "c:/Users/User/.texlive2025/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1742880732 3304 6a543c07045572737981351171e0505e ""
   "c:/Users/User/.texlive2025/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1742880634 3312 d199be9bd555944e2403193d58a0256a ""
   "c:/Users/User/.texlive2025/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1742816246 3240 c2435f2b5cd66d4930bc29b8df87967e ""
@@ -28,6 +28,7 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1742799105 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1742799105 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1742799105 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1742799105 32587 65067f817f408bc71a7312f3d9828a9b ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1742799105 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb" 1742799555 135942 aecb5af344df420d6ec421db27dedf62 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb" 1742799555 139826 3796482349bae544f13f54da58f9706d ""
@@ -58,9 +59,9 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1742803250 5542507 ab941440997c9bc806398195b19d4662 ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1742803471 3346026 c85351d1ae919fd5f1e7410329ad2d92 ""
   "c:/texlive/2025/texmf.cnf" 1742803234 713 e69b156964470283e0530f5060668171 ""
-  "d:/Leva/BSU/course_3/sem_6/ДУЧП/labs/lab-1/lab-1.tex" 1742912022 10814 b369934d822051227bfa44b103b09958 ""
-  "lab-1.aux" 1742912025 2159 7e59cbf10c079c1195063d52b98080ae "pdflatex"
-  "lab-1.tex" 1742912022 10814 b369934d822051227bfa44b103b09958 ""
+  "d:/Leva/BSU/course_3/sem_6/ДУЧП/labs/lab-1/lab-1.tex" 1743276553 14149 e13be1b2928f22368379222fad5f9e91 ""
+  "lab-1.aux" 1743276555 2840 d5755abf714593880435e71bb2045aa1 "pdflatex"
+  "lab-1.tex" 1743276553 14149 e13be1b2928f22368379222fad5f9e91 ""
   (generated)
   "lab-1.aux"
   "lab-1.log"
